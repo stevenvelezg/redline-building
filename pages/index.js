@@ -11,140 +11,117 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div class="hero min-h-screen">
-        <div class="hero-overlay bg-opacity-60"></div>
-        <div class="hero-content text-center text-neutral-content">
-          <div class="max-w-md">
-            <h1 class="mb-5 text-5xl font-extrabold">Redline Building Services</h1>
-            <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-            <button class="btn btn-primary">Get Started</button>
-          </div>
+      <header class="bg-gray-900 pattern">
+        <div class="container px-6 mx-auto">
+            <nav class="flex flex-col py-2 sm:flex-row sm:justify-between sm:items-center">
+              <div>
+                <a href="#" class="text-2xl font-semibold text-white hover:text-gray-300">Redline Building Services</a>
+              </div>
+            </nav>
+
+            <div class="flex flex-col items-center py-6 lg:h-[32rem] lg:flex-row">
+              <div class="lg:w-1/2">
+                <h2 class="text-4xl font-semibold text-gray-100">Redline Building Services</h2>
+
+                <p class="mt-3 text-gray-100">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+              </div>
+
+              <div class="flex mt-8 lg:w-1/2 lg:justify-end lg:mt-0">
+                <div class="max-w-sm">
+                  <div class="p-5 text-center">
+                    <section class="w-full max-w-2xl px-6 py-4 mx-auto bg-white rounded-md shadow-md dark:bg-gray-800">
+                        <h2 class="text-3xl font-semibold text-center text-gray-800 dark:text-white">Get A Quote</h2>
+                        
+                        <div class="mt-6 ">
+                            <div class="items-center -mx-2 md:flex">
+                                <div class="w-full mx-2">
+                                    <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200">Name</label>
+
+                                    <input class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40" type="text"/>
+                                </div>
+
+                                <div class="w-full mx-2 mt-4 md:mt-0">
+                                    <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200">E-mail</label>
+
+                                    <input class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40" type="email"/>
+                                </div>
+                            </div>
+
+                            <div class="w-full mt-4">
+                                <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200">Message</label>
+
+                                <textarea class="block w-full h-40 px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40"></textarea>
+                            </div>
+
+                            <div class="flex justify-center mt-6">
+                                <button class="px-4 py-2 text-white transition-colors duration-200 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600">Send Message</button>
+                            </div>
+                        </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
-      </div>
+      </header>
 
-      <div class="relative">
-        <div class="fixed bottom-0 right-5 h-32 w-32">
-          <label for="my-modal-4" class="btn btn-lg modal-button absolute border-white">open modal</label>
-        </div>
-      </div>
-
-      <input type="checkbox" id="my-modal-4" class="modal-toggle" />
-      <label for="my-modal-4" class="modal cursor-pointer">
-        <label class="modal-box relative">
-          <h3 class="text-lg font-bold">Congratulations random Interner user!</h3>
-          <p class="py-4">You've been selected for a chance to get one year of subscription to use Wikipedia for free!</p>
-        </label>
-      </label>
-
-      <div class="services">
-        <div class="grid grid-cols-1 place-items-center align-center">
-          <h1 class="mb-5 text-6xl font-extrabold">Our Services</h1>
-        </div>
-        <div class="grid grid-cols-3 gap-6 place-items-center">
-
-          <div class="basis-1/3">
-            <div class="card w-96 bg-base-100 shadow-xl">
-              <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
-              <div class="card-body">
-                <h2 class="card-title">Shoes!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div class="card-actions justify-end">
-                  <button class="btn btn-primary">Buy Now</button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="basis-1/3">
-            <div class="card w-96 bg-base-100 shadow-xl">
-              <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
-              <div class="card-body">
-                <h2 class="card-title">Shoes!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div class="card-actions justify-end">
-                  <button class="btn btn-primary">Buy Now</button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="basis-1/3">
-            <div class="card w-96 bg-base-100 shadow-xl">
-              <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
-              <div class="card-body">
-                <h2 class="card-title">Shoes!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div class="card-actions justify-end">
-                  <button class="btn btn-primary">Buy Now</button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="basis-1/3">
-            <div class="card w-96 bg-base-100 shadow-xl">
-              <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
-              <div class="card-body">
-                <h2 class="card-title">Shoes!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div class="card-actions justify-end">
-                  <button class="btn btn-primary">Buy Now</button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="basis-1/3">
-            <div class="card w-96 bg-base-100 shadow-xl">
-              <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
-              <div class="card-body">
-                <h2 class="card-title">Shoes!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div class="card-actions justify-end">
-                  <button class="btn btn-primary">Buy Now</button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="basis-1/3">
-            <div class="card w-96 bg-base-100 shadow-xl">
-              <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
-              <div class="card-body">
-                <h2 class="card-title">Shoes!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div class="card-actions justify-end">
-                  <button class="btn btn-primary">Buy Now</button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>  
-      </div>
       
-      <div class="gallery grid grid-cols-1 place-items-center">
-        <div class="carousel w-3/4">
-          <div id="item1" class="carousel-item w-full">
-            <img src="https://api.lorem.space/image/car?w=800&h=200&hash=8B7BCDC2" class="w-full" />
-          </div> 
-          <div id="item2" class="carousel-item w-full">
-            <img src="https://api.lorem.space/image/car?w=800&h=200&hash=500B67FB" class="w-full" />
-          </div> 
-          <div id="item3" class="carousel-item w-full">
-            <img src="https://api.lorem.space/image/car?w=800&h=200&hash=A89D0DE6" class="w-full" />
-          </div> 
-          <div id="item4" class="carousel-item w-full">
-            <img src="https://api.lorem.space/image/car?w=800&h=200&hash=225E6693" class="w-full" />
-          </div>
-        </div> 
-        <div class="flex justify-center w-full py-2 gap-2">
-          <a href="#item1" class="btn btn-xs">1</a> 
-          <a href="#item2" class="btn btn-xs">2</a> 
-          <a href="#item3" class="btn btn-xs">3</a> 
-          <a href="#item4" class="btn btn-xs">4</a>
-        </div>
-      </div>
+      <section class="bg-white dark:bg-gray-900">
+            <div class="container px-6 py-10 mx-auto">
+                <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">explore our <br/> awesome <span class="underline decoration-blue-500">Components</span></h1>
+                
+                <p class="mt-4 text-gray-500 xl:mt-6 dark:text-gray-300">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam voluptatibus
+                </p>
+                
+                <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
+                    <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
+                        <span class="inline-block text-blue-500 dark:text-blue-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
+                            </svg>
+                        </span>
+
+                        <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">elegant Dark Mode</h1>
+
+                        <p class="text-gray-500 dark:text-gray-300">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                        </p>
+                    </div>
+
+                    <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
+                        <span class="inline-block text-blue-500 dark:text-blue-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
+                            </svg>
+                        </span>
+
+                        <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Easy to customiztions</h1>
+
+                        <p class="text-gray-500 dark:text-gray-300">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                        </p>
+                    </div>
+
+                    <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
+                        <span class="inline-block text-blue-500 dark:text-blue-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                            </svg>
+                        </span>
+
+                        <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Simple & clean designs</h1>
+
+                        <p class="text-gray-500 dark:text-gray-300">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+      
 
       {/* <footer className={styles.footer}>
         <a
@@ -153,7 +130,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <span className={styles.logo}>
+          <span classNameName={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
