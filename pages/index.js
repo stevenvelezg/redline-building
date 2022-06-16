@@ -13,11 +13,6 @@ export default function Home() {
 
       <header class="bg-gray-900 pattern">
         <div class="container px-6 mx-auto">
-            <nav class="flex flex-col py-2 sm:flex-row sm:justify-between sm:items-center">
-              <div>
-                <a href="#" class="text-2xl font-semibold text-white hover:text-gray-300">Redline Building Services</a>
-              </div>
-            </nav>
 
             <div class="flex flex-col items-center py-6 lg:h-[32rem] lg:flex-row">
               <div class="lg:w-1/2">
@@ -66,7 +61,30 @@ export default function Home() {
       </header>
 
       
-      <section class="bg-white dark:bg-gray-900">
+    <section class="bg-white dark:bg-gray-800">
+        <div class="container px-6 py-8 mx-auto">
+            <div class="items-center lg:flex">
+                <div class="lg:w-1/2">
+                    <h2 class="text-3xl font-bold text-gray-800 dark:text-gray-100">Who I am</h2>
+
+                    <p class="mt-4 text-gray-500 dark:text-gray-400 lg:max-w-md">
+                        Hi I am jane , software engineer <a class="font-bold text-blue-600 dark:text-blue-400" href="#">@BakaTeam</a> , Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum in sed non alias, fugiat, commodi nemo ut fugit corrupti dolorem sequi ex veniam consequuntur id, maiores beatae ipsa omnis aliquam?
+                    </p>
+                    
+                </div>
+
+                <div class="mt-8 lg:mt-0 lg:w-1/2">
+                    <div class="flex items-center justify-center lg:justify-end">
+                        <div class="max-w-lg">
+                            <img class="object-cover object-center w-full h-64 rounded-md shadow" src="https://images.unsplash.com/photo-1484399172022-72a90b12e3c1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <section class="bg-gray-100 dark:bg-gray-900">
             <div class="container px-6 py-10 mx-auto">
                 <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">explore our <br/> awesome <span class="underline decoration-blue-500">Components</span></h1>
                 
@@ -121,20 +139,90 @@ export default function Home() {
             </div>
         </section>
 
-      
+        <section class="overflow-hidden text-gray-700 bg-white dark:bg-gray-900">
 
-      {/* <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span classNameName={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer> */}
+          <div class="container px-6 py-10 mx-auto">
+            <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">explore our <br/> awesome <span class="underline decoration-blue-500">Components</span></h1>
+                  
+            <p class="mt-4 text-gray-500 xl:mt-6 dark:text-gray-300">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam voluptatibus
+            </p>
+          </div>
+
+          <div class="container px-5 py-2 mx-auto lg:pt-12 lg:px-32">
+            <div class="flex flex-wrap -m-1 md:-m-2">
+              <div class="flex flex-wrap w-1/3">
+                <div class="w-full p-1 md:p-2">
+                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"/>
+                </div>
+              </div>
+              <div class="flex flex-wrap w-1/3">
+                <div class="w-full p-1 md:p-2">
+                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"/>
+                </div>
+              </div>
+              <div class="flex flex-wrap w-1/3">
+                <div class="w-full p-1 md:p-2">
+                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp"/>
+                </div>
+              </div>
+              <div class="flex flex-wrap w-1/3">
+                <div class="w-full p-1 md:p-2">
+                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp"/>
+                </div>
+              </div>
+              <div class="flex flex-wrap w-1/3">
+                <div class="w-full p-1 md:p-2">
+                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(76).webp"/>
+                </div>
+              </div>
+              <div class="flex flex-wrap w-1/3">
+                <div class="w-full p-1 md:p-2">
+                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+    
+
+<footer class="bg-white dark:bg-gray-800">
+        <div class="container px-6 py-4 mx-auto">
+
+        <hr class="h-px my-6 bg-gray-300 border-none dark:bg-gray-700"/>  
+            <div class="lg:flex">
+                <div class="w-full -mx-6 lg:w-2/5">
+                    <div class="px-6">
+                        <div>
+                            <a href="#" class="text-xl font-bold text-gray-800 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">Brand</a>
+                        </div>
+                        
+                        <p class="max-w-md mt-2 text-gray-500 dark:text-gray-400">Join 31,000+ other and never miss out on new tips, tutorials, and more.</p>
+
+                    </div>
+                </div>
+
+                <div class="mt-6 lg:mt-0 lg:flex-1">
+                    <div class="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4">
+                        <div>
+                            <h3 class="text-gray-700 uppercase dark:text-white">Contact</h3>
+                            <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">+1 526 654 8965</span>
+                            <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">example@email.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="h-px my-6 bg-gray-300 border-none dark:bg-gray-700"/>
+        </div>
+    </footer>
     </div>
   )
 }
