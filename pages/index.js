@@ -228,7 +228,7 @@ export default function Home() {
                 <a href="#" class="text-xl font-bold text-gray-800 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">Redline Building Services</a>
               </div>
                         
-              <p class="max-w-md mt-2 text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet.</p>
+              {/* <p class="max-w-md mt-2 text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet.</p> */}
 
             </div>
           </div>
@@ -238,7 +238,7 @@ export default function Home() {
               <div className="md:col-end-5 md:text-right">
                 <h3 class="text-gray-700 uppercase dark:text-white">Contact</h3>
                 <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">+1 526 654 8965</span>
-                <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">example@email.com</span>
+                <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">info@redline-building.com</span>
               </div>
             </div>
           </div>
