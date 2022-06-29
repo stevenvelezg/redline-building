@@ -47,14 +47,14 @@ export default function Home() {
                         
                     <div class="mt-6 ">
                       <form onSubmit={handleSubmit}>
-                        <div class="items-center -mx-2 md:flex">
+                        <div class="items-center lg:-mx-2 md:flex">
 
-                          <div class="w-full mx-2">
+                          <div class="w-full lg:mx-2">
                             <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200">Name</label>
                             <input class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40" id="name" type="text" onChange={e => setName(e.target.value)}/>
                           </div>
 
-                          <div class="w-full mx-2 mt-4 md:mt-0">
+                          <div class="w-full lg:mx-2 mt-4 md:mt-0">
                             <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200">E-mail</label>
                             <input class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40" id="email" type="email" onChange={e => setEmail(e.target.value)}/>
                           </div>
@@ -82,19 +82,31 @@ export default function Home() {
       <section class="bg-white dark:bg-gray-800">
         <div class="container px-6 py-8 mx-auto">
           <div class="items-center lg:flex">
-            <div class="lg:w-1/2">
-              <h2 class="text-3xl font-bold text-gray-800 dark:text-gray-100">Who We Are</h2>
+            <div class="lg:w-1/2 lg:h-80">
+              <h2 class="text-3xl font-bold text-gray-800 dark:text-gray-100">Our Background</h2>
 
               <p class="mt-4 text-gray-500 dark:text-gray-400 lg:max-w-md">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum in sed non alias, fugiat, commodi nemo ut fugit corrupti dolorem sequi ex veniam consequuntur id, maiores beatae ipsa omnis aliquam?
+              Anthony Milohnic, our founder and president started a Union carpentry company with his brothers in 1995, based on his passion to provide the best customer service possible, he left the family business and started Redline Building Services. <br/> <br/> Redline building services team, lead by Roberto Velez, all share in Anthony’s passion and are committed to the highest levels of quality, budget and innovation to ensure that each project results in both a satisfied customer and a lasting relationship.
               </p>
 
             </div>
 
             <div class="mt-8 lg:mt-0 lg:w-1/2">
-              <div class="flex items-center justify-center lg:justify-end">
-                <div class="max-w-lg">
-                  <img class="object-cover object-center w-full h-64 rounded-md shadow" src="https://images.unsplash.com/photo-1484399172022-72a90b12e3c1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" alt=""/>
+              <div class="flex items-center justify-center">
+                <div class="max-w-lg lg:h-80">
+                  <h2 class="text-3xl font-bold text-gray-800 dark:text-gray-100">Our Mission</h2>
+
+                  <p class="mt-4 text-gray-500 dark:text-gray-400 lg:max-w-md">
+                  We strive to build lasting relationships by delivering the highest quality, fit and finish to each and every project.<br/><br/>
+                  We are driven by core values:
+                  </p>
+                  <ul className='list-disc ml-8 text-gray-500 dark:text-gray-400'>
+                    <li>Focus on safety,</li>
+                    <li>Provide a family atmosphere,</li>
+                    <li>Every team member matters,</li>
+                    <li>Unsurpassed customer satisfaction,</li>
+                    <li>Make it happen!</li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -113,14 +125,8 @@ export default function Home() {
                 
           <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
             <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
-              <span class="inline-block text-blue-500 dark:text-blue-400">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
-                </svg>
-              </span>
-
-              <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Construction</h1>
+              
+              <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Cold Form Metal Framing</h1>
 
               <p class="text-gray-500 dark:text-gray-300">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
@@ -128,13 +134,8 @@ export default function Home() {
             </div>
 
             <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
-              <span class="inline-block text-blue-500 dark:text-blue-400">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
-                </svg>
-              </span>
-
-              <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Demolition</h1>
+              
+              <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Light Gauge Metal Framing</h1>
 
               <p class="text-gray-500 dark:text-gray-300">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
@@ -142,18 +143,68 @@ export default function Home() {
             </div>
 
             <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
-              <span class="inline-block text-blue-500 dark:text-blue-400">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
-                </svg>
-              </span>
-
-              <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Service 3</h1>
+              
+              <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Roof Truss Installation</h1>
 
               <p class="text-gray-500 dark:text-gray-300">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
               </p>
             </div>
+
+            <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
+              
+              <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Rough Carpentry</h1>
+
+              <p class="text-gray-500 dark:text-gray-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+              </p>
+            </div>
+
+            <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
+              
+              <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Finish Carpentry</h1>
+
+              <p class="text-gray-500 dark:text-gray-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+              </p>
+            </div>
+
+            <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
+              
+              <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Acoustical Ceilings</h1>
+
+              <p class="text-gray-500 dark:text-gray-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+              </p>
+            </div>
+
+            <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
+              
+              <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Specialty Ceilings</h1>
+
+              <p class="text-gray-500 dark:text-gray-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+              </p>
+            </div>
+
+            <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
+              
+              <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Drywall Installation</h1>
+
+              <p class="text-gray-500 dark:text-gray-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+              </p>
+            </div>
+
+            <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
+              
+              <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Doors and Hardware</h1>
+
+              <p class="text-gray-500 dark:text-gray-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+              </p>
+            </div>
+
           </div>
         </div>
       </section>
