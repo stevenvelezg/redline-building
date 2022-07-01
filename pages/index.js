@@ -117,92 +117,70 @@ export default function Home() {
       {/* Services */}
       <section class="bg-gray-100 dark:bg-gray-900">
         <div class="container px-6 py-10 mx-auto">
-          <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">explore our <br/> services</h1>
-                
-          <p class="mt-4 text-gray-500 xl:mt-6 dark:text-gray-300">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam voluptatibus
-          </p>
+          <h1 class="text-3xl text-center font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">explore our <br/> services</h1>
                 
           <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
-            <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
-              
-              <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Cold Form Metal Framing</h1>
 
-              <p class="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
-              </p>
+            <div class="max-w-300 mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+                <img class="object-cover w-full h-56" src="coldForm.jpg"/>
+                <div class="p-5 text-center">
+                    <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Cold Form Metal Framing</h1>
+                </div>
+            </div>
+            <div class="max-w-300 mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+                <img class="object-cover w-full h-56" src="lightForm.jpg"/>
+                <div class="p-5 text-center">
+                    <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Light Metal Framing</h1>
+                </div>
+            </div>
+            <div class="max-w-300 mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+                <img class="object-cover w-full h-56" src="ceilingTruss.jpg"/>
+                <div class="p-5 text-center">
+                    <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Ceiling Trusses</h1>
+                </div>
             </div>
 
-            <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
-              
-              <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Light Gauge Metal Framing</h1>
-
-              <p class="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
-              </p>
+            <div class="max-w-300 mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+                <img class="object-cover w-full h-56" src="roughCarpentry.jpg"/>
+                <div class="p-5 text-center">
+                    <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Rough Carpentry</h1>
+                </div>
             </div>
 
-            <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
-              
-              <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Roof Truss Installation</h1>
-
-              <p class="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
-              </p>
+            <div class="max-w-300 mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+                <img class="object-cover w-full h-56" src="finishedCarpentry.jpg"/>
+                <div class="p-5 text-center">
+                    <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Finished Carpentry</h1>
+                </div>
             </div>
 
-            <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
-              
-              <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Rough Carpentry</h1>
-
-              <p class="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
-              </p>
+            <div class="max-w-300 mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+                <img class="object-cover w-full h-56" src="acousticCeiling.jpg"/>
+                <div class="p-5 text-center">
+                    <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Acoustical Ceilings</h1>
+                </div>
             </div>
 
-            <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
-              
-              <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Finish Carpentry</h1>
-
-              <p class="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
-              </p>
+            <div class="max-w-300 mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+                <img class="object-cover w-full h-56" src="specialtyCeiling.jpg"/>
+                <div class="p-5 text-center">
+                    <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Specialty Ceilings</h1>
+                </div>
             </div>
 
-            <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
-              
-              <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Acoustical Ceilings</h1>
-
-              <p class="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
-              </p>
+            <div class="max-w-300 mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+                <img class="object-cover w-full h-56" src="drywall.jpg"/>
+                <div class="p-5 text-center">
+                    <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Drywall Installation</h1>
+                </div>
             </div>
 
-            <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
-              
-              <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Specialty Ceilings</h1>
-
-              <p class="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
-              </p>
-            </div>
-
-            <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
-              
-              <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Drywall Installation</h1>
-
-              <p class="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
-              </p>
-            </div>
-
-            <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
-              
-              <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Doors and Hardware</h1>
-
-              <p class="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
-              </p>
+            <div class="max-w-300 mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+                <img class="object-cover w-full h-56" src="door.jpg"/>
+                <div class="p-5 text-center">
+                    <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Doors and Hardware</h1>
+    
+                </div>
             </div>
 
           </div>
@@ -213,56 +191,55 @@ export default function Home() {
       <section class="overflow-hidden text-gray-700 bg-white dark:bg-gray-900">
 
         <div class="container px-6 py-10 mx-auto">
-          <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">Our Previous Projects</h1>
-                  
-          <p class="mt-4 text-gray-500 xl:mt-6 dark:text-gray-300">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam voluptatibus
-          </p>
+          <h1 class="text-3xl text-center align-center font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">Our Previous <br/>Projects</h1>
         </div>
 
-        <div class="container px-5 pt-2 pb-10 mx-auto lg:pt-12 lg:px-32">
-          <div class="flex flex-wrap -m-1 md:-m-2">
-            <div class="flex flex-wrap w-1/3">
-              <div class="w-full p-1 md:p-2">
-                <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"/>
-              </div>
+        
+        <div class="lg:flex lg:flex-row">
+
+          <div class="flex flex-col lg:basis-1/3 lg:gap-8 mt-8 mx-8 lg:mx-auto items-center justify-center max-w-sm mx-auto">
+            <div class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md" style={{backgroundImage: "url("+ 'finishedCarpentry.jpg' + ")"}}></div>
+            <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 bg-gray-200 dark:bg-gray-700 dark:bg-gray-800">
+                <h3 class="py-2 font-bold tracking-wide text-center text-gray-800 uppercase dark:text-white">BondVet</h3>
             </div>
+          </div>
 
-            <div class="flex flex-wrap w-1/3">
-              <div class="w-full p-1 md:p-2">
-                <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"/>
-              </div>
+          <div class="flex flex-col lg:basis-1/3 lg:gap-8 mt-8 mx-8 lg:mx-auto items-center justify-center max-w-sm mx-auto">
+            <div class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md" style={{backgroundImage: "url("+ 'theMillenium.jpg' + ")"}}></div>
+            <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 bg-gray-200 dark:bg-gray-700 dark:bg-gray-800">
+              <h3 class="py-2 font-bold tracking-wide text-center text-gray-800 uppercase dark:text-white">The Millenium</h3>
             </div>
+          </div>
 
-            <div class="flex flex-wrap w-1/3">
-                <div class="w-full p-1 md:p-2">
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp"/>
-                </div>
-              </div>
+          <div class="flex flex-col lg:basis-1/3 lg:gap-8 mt-8 mx-8 lg:mx-auto items-center justify-center max-w-sm mx-auto">
+            <div class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md" style={{backgroundImage: "url("+ 'tsc.jpg' + ")"}}></div>
+            <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 bg-gray-200 dark:bg-gray-700 dark:bg-gray-800">
+              <h3 class="py-2 font-bold tracking-wide text-center text-gray-800 uppercase dark:text-white">Tractor Supply Co.</h3>
+            </div>
+          </div>
+        </div>
 
-              <div class="flex flex-wrap w-1/3">
-                <div class="w-full p-1 md:p-2">
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp"/>
-                </div>
-              </div>
+        <div class="lg:flex lg:flex-row">
 
-              <div class="flex flex-wrap w-1/3">
-                <div class="w-full p-1 md:p-2">
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(76).webp"/>
-                </div>
-              </div>
+          <div class="flex flex-col lg:basis-1/3 lg:gap-8 mt-8 mx-8 lg:mx-auto items-center justify-center max-w-sm mx-auto">
+            <div class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md" style={{backgroundImage: "url("+ 'finishedCarpentry.jpg' + ")"}}></div>
+            <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 bg-gray-200 dark:bg-gray-700 dark:bg-gray-800">
+                <h3 class="py-2 font-bold tracking-wide text-center text-gray-800 uppercase dark:text-white">BondVet</h3>
+            </div>
+          </div>
 
-              <div class="flex flex-wrap w-1/3">
-                <div class="w-full p-1 md:p-2">
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp"/>
-                </div>
-              </div>
+          <div class="flex flex-col lg:basis-1/3 lg:gap-8 mt-8 mx-8 lg:mx-auto items-center justify-center max-w-sm mx-auto">
+            <div class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md" style={{backgroundImage: "url("+ 'theMillenium.jpg' + ")"}}></div>
+            <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 bg-gray-200 dark:bg-gray-700 dark:bg-gray-800">
+              <h3 class="py-2 font-bold tracking-wide text-center text-gray-800 uppercase dark:text-white">The Millenium</h3>
+            </div>
+          </div>
+
+          <div class="flex flex-col lg:basis-1/3 lg:gap-8 mt-8 mx-8 lg:mx-auto items-center justify-center max-w-sm mx-auto">
+            <div class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md" style={{backgroundImage: "url("+ 'tsc.jpg' + ")"}}></div>
+            <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 bg-gray-200 dark:bg-gray-700 dark:bg-gray-800">
+              <h3 class="py-2 font-bold tracking-wide text-center text-gray-800 uppercase dark:text-white">Tractor Supply Co.</h3>
+            </div>
           </div>
         </div>
       </section>
