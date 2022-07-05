@@ -222,23 +222,23 @@ export default function Home() {
         <div class="lg:flex lg:flex-row">
 
           <div class="flex flex-col lg:basis-1/3 lg:gap-8 mt-8 mx-8 lg:mx-auto items-center justify-center max-w-sm mx-auto">
-            <div class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md" style={{backgroundImage: "url("+ 'finishedCarpentry.jpg' + ")"}}></div>
+            <div class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md" style={{backgroundImage: "url("+ 'peachy.jpg' + ")"}}></div>
             <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 bg-gray-200 dark:bg-gray-700 dark:bg-gray-800">
-                <h3 class="py-2 font-bold tracking-wide text-center text-gray-800 uppercase dark:text-white">BondVet</h3>
+                <h3 class="py-2 font-bold tracking-wide text-center text-gray-800 uppercase dark:text-white">Peachy</h3>
             </div>
           </div>
 
           <div class="flex flex-col lg:basis-1/3 lg:gap-8 mt-8 mx-8 lg:mx-auto items-center justify-center max-w-sm mx-auto">
-            <div class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md" style={{backgroundImage: "url("+ 'theMillenium.jpg' + ")"}}></div>
+            <div class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md" style={{backgroundImage: "url("+ 'wellsFargo.jpg' + ")"}}></div>
             <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 bg-gray-200 dark:bg-gray-700 dark:bg-gray-800">
-              <h3 class="py-2 font-bold tracking-wide text-center text-gray-800 uppercase dark:text-white">The Millenium</h3>
+              <h3 class="py-2 font-bold tracking-wide text-center text-gray-800 uppercase dark:text-white">Wells Fargo</h3>
             </div>
           </div>
 
           <div class="flex flex-col lg:basis-1/3 lg:gap-8 mt-8 mx-8 lg:mx-auto items-center justify-center max-w-sm mx-auto">
-            <div class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md" style={{backgroundImage: "url("+ 'tsc.jpg' + ")"}}></div>
+            <div class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md" style={{backgroundImage: "url("+ 'allEars.jpg' + ")"}}></div>
             <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 bg-gray-200 dark:bg-gray-700 dark:bg-gray-800">
-              <h3 class="py-2 font-bold tracking-wide text-center text-gray-800 uppercase dark:text-white">Tractor Supply Co.</h3>
+              <h3 class="py-2 font-bold tracking-wide text-center text-gray-800 uppercase dark:text-white">All Ears Veterinary</h3>
             </div>
           </div>
         </div>
