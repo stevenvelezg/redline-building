@@ -136,7 +136,7 @@ export default function Home() {
             <div class="max-w-300 mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
                 <img class="object-cover w-full h-56" src="ceilingTruss.jpg"/>
                 <div class="p-5 text-center">
-                    <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Ceiling Trusses</h1>
+                    <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Roof Truss Installation</h1>
                 </div>
             </div>
 
